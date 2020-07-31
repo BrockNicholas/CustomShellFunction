@@ -7,7 +7,7 @@ Create a new .sh file at /usr/local/bin/custom-function.sh
 You can use any IDE of course, but if you need help: \
 e.g., `vi /usr/local/bin/custom-file.sh`
 
-If using vi (not recommended), type `i` to enter insert mode. 
+If using vi (not recommended), type `i` to enter insert mode. \
 Save your changes by hitting the Esc key, type `:x` and hit Enter
 
 Include this compiler directive at the top of custom-function.sh \
@@ -20,7 +20,7 @@ e.g.,
 > \
 > echo 'Hello, World!'
 
-Here is an example with multiple functions. I use them for opening some predefined websites I use regularly
+Here is an example with multiple functions. I use them for opening some predefined websites I use regularly \
 #!/bin/bash
 
 >function open_fav() { \
@@ -42,10 +42,10 @@ Here is an example with multiple functions. I use them for opening some predefin
 >    &nbsp;&nbsp;open -a Safari 'https://github.com/BrockNicholas' \
 >}
 
-To tell your shell about your functions, add the following to your .bashrc file:
+To tell your shell about your functions, add the following to your .bashrc file: \
 `source /usr/local/bin/custom-function.sh`
 
-Then reload the .bashrc file
+Then reload the .bashrc file \
 `source ~/.bashrc`
 
 Now you should be able to run the functions in your shell
